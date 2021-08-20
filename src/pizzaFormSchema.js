@@ -1,4 +1,4 @@
-mport * as yup from "yup";
+import * as yup from "yup";
 
 const pizzaFormSchema = yup.object().shape({
   size: yup.string().required("Size is required"),
